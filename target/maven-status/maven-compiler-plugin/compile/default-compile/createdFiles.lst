@@ -1,0 +1,9 @@
+com\example\demo\DemoApplication.class
+com\example\demo\dto\FilmDTO.class
+com\example\demo\controllers\FilmsRestController.class
+com\example\demo\mapper\FilmMapperImpl.class
+com\example\demo\services\FilmService.class
+com\example\demo\entities\Film.class
+com\example\demo\services\impl\FilmServiceImpl.class
+com\example\demo\repository\FilmRepository.class
+com\example\demo\mapper\FilmMapper.class
