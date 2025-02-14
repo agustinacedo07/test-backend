@@ -23,3 +23,9 @@ sources/.idea/vcs.xml
 .idea/compiler.xml
 .idea/encodings.xml
 .idea/jarRepositories.xml
+/target/
+.classpath
+.project
+.settings/
+.factorypath
+*.prefs
