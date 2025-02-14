@@ -68,6 +68,13 @@
     		<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
     		<version>2.2.0</version> <!-- Usa la versión más reciente -->
 		</dependency>
+	    <!-- Dependencia de Lombok -->
+	    <dependency>
+	        <groupId>org.projectlombok</groupId>
+	        <artifactId>lombok</artifactId>
+	        <version>1.18.26</version>  <!-- Verifica la última versión disponible -->
+	        <scope>provided</scope>  <!-- Se usa en tiempo de compilación, no es necesario en el runtime -->
+	    </dependency>
 		</dependencies>
 
 	<build>

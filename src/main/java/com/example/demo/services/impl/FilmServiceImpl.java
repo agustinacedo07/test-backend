@@ -27,11 +27,11 @@ public class FilmServiceImpl implements FilmService{
 	@Override
 	public List<FilmDTO> getAllFilms() {
 		
-		List<Film> listFilmsEntity = filmRespository.obtenerTodos();
+		List<Film> listFilmsEntity = filmRespository.findAll();
 		List<FilmDTO> listFilms = new ArrayList<>();
 		
 		for(Film film: listFilmsEntity) {
-			listFilms.add(filmMapper.entityToDTO(film));
+			listFilms.add(filmMapper.toDto(film));
 		}
 		
 		return listFilms;
